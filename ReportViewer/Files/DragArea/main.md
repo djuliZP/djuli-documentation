@@ -1,26 +1,38 @@
-#### Supported filetypes
+## Supported filetypes
 
-##### Delimited files
+#### Delimited files
 
 **.csv -** The first column will be interpreted as the x-data, and the remining columns as the y-data sharing the same x-axis. 
 
 **.pss -** Same as .csv, but output from PalmSens PStrace
 
-##### JSON structures
+#### JSON structures
 
 **.pssession -** Output from PStrace
 
-##### XML structures
+#### XML structures
 
 **.mod -** Output from DropSense instruments
 
-##### Images
+**.xlsx -** a Microsoft Excel Open XML Spreadsheet
 
-**.png, jpeg, .bmp -** that will display in the report
+#### Images
 
-##### Other types
+**.png, .jpg, .jpeg, .svg, .bmp -** that will display in the report
+
+#### Other types
 
 **.dt6 -**  Output from DeltaLink dataloggers
+
+**.html -** Hypertext Markup Language file and is the standard web page file type on the internet
+
+**.mtd -**  a sheet music file used by Musicnotes Viewer
+
+**.TRM -** Audio file
+
+**.cntr -** 
+
+**.aof -** 
 
 ##### Other data souces
 
