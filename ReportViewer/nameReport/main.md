@@ -1,6 +1,6 @@
 ## Report editor
 
-In this section you should be able to edit the...
+In this section you should be able to edit the
 
 *.Date*
 
