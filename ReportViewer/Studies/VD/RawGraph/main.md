@@ -1,4 +1,4 @@
-`Media,Examples`
+`Media`
 
 # Raw Graph
 
@@ -6,10 +6,14 @@ It is the graphical representation of the Raw data.
 
 ![](RAW.png)
 
-A. **Concentration:** Concentrations acquired from the data files. Each color represents a different concentration in the plot.
+A. **Legend:** Each color represents a different data set in the analysis. The color matches with the Data lines (F). These elements can be modified in 'Files -> Processed data table'.
 
-B. **Y-axis:** Magnitude of current. The units and range can be modified in 'Plot Properties -> Units'
+B. **Graph title:** If the study includes any preprocessing or modification before analysis, two graphs will be generated: "Preprocessed Data" and "Original Data". Otherwise, a single graph with the title "Raw Graph" will be generated.
 
-C.  **X-axis:** Value of t1 in the X-axis. This variable is employed in the construction of the Delta Fit Plot. The width is defined by the variable 'mean'. The variable 't1' and 'mean' can be modified in the properties of the Delta Fit Plot.
+C. **Y-axis:** Magnitude of the current. The units can be modified in 'Properties -> General -> Units -> Current (output)' and the range in 'Properties -> AC -> Y-axis range'
 
-[https://www.youtube.com/watch?v=B6uVRVLYjJs]()
+D.  **Concentrations:** Each gray rectangle represents a concentration in the chrono analysis. The elements have associated a concentration value and time, which can be modified in 'Properties -> AC -> Cards -> Fit Step Data -> Configure Concentrations'. All the elements share the same Step Fit (width).
+
+E.  **X-axis:** Time. The units can be modified in 'Properties -> General -> Units -> Time (output)' and the range in 'Properties -> AC -> X-axis range'
+
+F.  **Data lines:** Each color represents a different data set in the analysis. The color matches with the Legend (A). These elements can be modified in 'Files -> Processed data table'.
