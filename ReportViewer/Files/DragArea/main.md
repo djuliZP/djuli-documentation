@@ -26,13 +26,13 @@
 
 **.html -** Hypertext Markup Language file and is the standard web page file type on the internet
 
-**.mtd -** a sheet music file used by Musicnotes Viewer
+**.mtd -** DropSense method file
 
 **.TRM -** Spectrometer data
 
-**.cntr -**
+**.cntr -** Djuli native files that can store time events for analysis
 
-**.aof -**
+**.aof -** Djuli native files that can store time events for analysis
 
 ##### Other data souces
 
