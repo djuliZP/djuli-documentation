@@ -21,7 +21,7 @@ Before using the commands you should look for the id of the element you wish to 
 
 
 
-![](C:\Users\salar\Documents\djuli-documentation\Terminal\textInput\where to find ids.gif)
+![](where%20to%20find%20ids.gif)
 
 
 

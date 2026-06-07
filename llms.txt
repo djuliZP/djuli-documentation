@@ -1,0 +1,78 @@
+# Djuli
+
+> Djuli is a cloud-based scientific data management and analysis platform built by Zimmer & Peacock (ZP). It is designed for storing, analysing and sharing electrochemical, biosensor and in-vitro diagnostic (IVD) data, with first-class support for ZP's SenseItAll (SIA) hardware and any third-party instrument that can export common data formats.
+
+## What Djuli does
+
+- Stores raw sensor data in user-owned **clusters** and **projects**.
+- Runs reproducible analyses (amperometry, potentiometry, voltammetry, impedance, spatial mapping) with configurable preprocessing, fitting and statistical evaluation.
+- Generates shareable **reports** combining metadata, raw plots, processed plots and analytics (R^2, LoB/LoD/LoQ, model coefficients).
+- Supports collaboration via shared reports, reviewer assignment and custom templates.
+- Exposes a REST API so IoT devices and external scripts can push data and pull results.
+
+## Who it is for
+
+- Electrochemists, biosensor developers and IVD researchers.
+- Hardware integrators using SenseItAll, FoodSense, or other ZP instruments.
+- Teams that need traceable data analysis with an audit trail per data point.
+
+## Key concepts
+
+- **Cluster** - top-level workspace owned by a user. Groups related projects.
+- **Project** - a folder of related reports within a cluster.
+- **Report** - one experiment: metadata (operator, equipment, protocol), the raw files used, the analysis configuration, the produced plots and the analytics.
+- **Study** - the analysis applied inside a report. Each study type has its own preprocessing and fitting options.
+- **Cluster / Project / Report tree** - the navigation sidebar in the web app.
+- **Contextual help** - hover-driven help panel inside the web app; its content lives in [github.com/djuliZP/djuli-documentation](https://github.com/djuliZP/djuli-documentation).
+
+## Supported study types
+
+Discrete (one measurement per concentration / sample):
+
+- Amperometry (AD)
+- Potentiometry (PD)
+- Voltammetry (VD)
+- Impedance / EIS
+- Spatial mapping
+
+Continuous (time-series):
+
+- Amperometry (AC)
+- Potentiometry (PC)
+- Generic Continuous (GC)
+
+Users can also create a Generic study when their workflow does not match a predefined type.
+
+## Supported data formats
+
+CSV, XLSX, JSON, XML, PSSession, MTD, TRM, DT6, TXT/DB, and media files (PNG and others). Direct streaming from ZP hardware is also supported.
+
+## Preprocessing tools
+
+Crop, baseline adjustment, BPF / BSF / HPF / LPF filters, median filter, moving average, Savitzky-Golay smoothing, flip, offset, extrapolate, accumulate, differentiate, outlier detection.
+
+## Analysis tools
+
+Equation fitting, statistical extraction (per-line and global), standard addition, feature check, delta fit, mean fit, peak fit (position / height / area under curve), spatial mapping.
+
+## Hardware integration
+
+- **SenseItAll (SIA)** - ZP's portable potentiostat family. Streams data directly into Djuli.
+- **FoodSense** - ZP's portable food-analysis instrument (capsaicin / Scoville, gingerol, caffeine); ships with Djuli Premium included.
+- **Third-party instruments** - any device that exports a supported file format works.
+- **Public REST API** - push data from IoT devices, pull results into external dashboards.
+
+## Pricing
+
+- **Freemium** - free tier; signup at https://dju.li/register
+- **Premium** - paid tier with additional storage, API access and team features. Buyers of SenseItAll or FoodSense hardware get Premium included: the account is upgraded automatically the first time the user logs into the SIA / FoodSense companion app with the same email and password they use on Djuli.
+
+## URLs
+
+- Application: https://dju.li
+- Free signup: https://dju.li/register
+- Real-time dashboards: https://djuli-real-time-353283799832.europe-west4.run.app
+- Knowledge base / courses: https://academy.zimmerpeacock.com/courses
+- Company site: https://www.zimmerpeacocktech.com
+- Support: https://www.zimmerpeacocktech.com/contact-support/
+- This documentation repository: https://github.com/djuliZP/djuli-documentation
