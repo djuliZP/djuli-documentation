@@ -1,3 +1,5 @@
-# Clusters
+# Add Cluster
 
-Here you can see the name of your clusters and you should be able to add new clusters with this icon![low_pass_pre](plusIcon.png). You can also manually refresh the tree with this icon ![low_pass_pre](refreshTree.png).
+Create a new cluster in your workspace.
+
+A cluster is a top-level container that groups related projects - for example, one cluster per customer, instrument or research line. After clicking this button you give the cluster a name and confirm; it then appears in the table and in the navigation tree on the left.

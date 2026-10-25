@@ -1,10 +1,5 @@
-# Report Editor
+# Remove Reports
 
-Here you will be able to add reports ![low_pass_pre](addReport.png), remove reports ![low_pass_pre](removeReport.png), and share reports ![low_pass_pre](shareReport.png).
+Permanently delete the selected report(s) from the current project.
 
-
-
-
-
-
-
+Only the owner of a report can remove it. Removing a report deletes its raw data, plot configuration and analytics - there is no undo. If you only want to hide a report from the active view, archive its parent cluster instead.
