@@ -1,10 +1,7 @@
-# Templates
+# Table Template
 
-On this page you will be able to extract a template from your current report with a given name and type
-![low_pass_pre](ExtractingTemplate.png)
+Renders the report as a **tabular** layout instead of the default plot-and-card workspace.
 
+Useful when the report's primary output is numeric (e.g. a batch of calibration coefficients, a QC summary across many samples) and the side-by-side plot layout is unnecessary. The same data sources are used — only the presentation changes.
 
-
-You will also be able to export any of the selected templates as a 
-
-json file![low_pass_pre](ExportSelected.png) on your local pc, edit the name and type of your template![low_pass_pre](EditSelected.png), remove the selected template![low_pass_pre](DeleteSelected.png) and import templates from your local pc![low_pass_pre](ImportTemplate.png)
+Switch back to the plot layout at any time from the workspace template selector.
